@@ -1,0 +1,1 @@
+# blinq-frontend-challenge
