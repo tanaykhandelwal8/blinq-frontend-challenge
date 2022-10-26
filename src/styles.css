@@ -1,0 +1,103 @@
+* {
+    font-family: 'Courier', sans-serif;
+}
+/************************* CSS FOR HEADER ************************/
+.header {
+    background-color: #FAFBFC;
+    width:100%;
+    height: 7%;
+    display:flex;
+    border-bottom:solid;
+    border-bottom-color: black;
+    position:fixed;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.header-text {
+    align-self: center;
+    margin:0;
+    font-size: 1.5rem;
+    padding-left:6rem;
+
+}
+/****************** END OF CSS FOR HEADER **********************/
+
+/************************* CSS FOR FOOTER ************************/
+
+.footer {
+    background-color: #F4F5F7;
+    width:100%;
+    height: 7%;
+    display:flex;
+    border-top:solid;
+    border-top-color: black;
+    position:fixed;
+    margin: 0;
+    padding: 0;
+    bottom:0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+
+}
+
+.footer-text {
+    font-size: 12px;
+}
+
+/****************** END OF CSS FOR FOOTER **********************/
+
+.home-main-text {
+    color:black;
+    text-align: center;
+    position:absolute;
+    vertical-align: center;
+    top:24rem;
+    font-size: 3.5rem;
+    width:100%;
+    line-height:1;
+}
+
+.home-small-text {
+    color:black;
+    text-align: center;
+    position:absolute;
+    vertical-align: center;
+    top:27em;
+    font-size: 1.2rem;
+    width:100%;
+}
+
+.home-invite-button {
+    color: black;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin:auto;
+    position:absolute;
+    top:47em;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 0.8em 0.7em;
+
+}
+
+.popup-line {
+    width:20%;
+}
+
+.popup {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background-color:grey;
+}
+
+.popup-name {
+    background-color: blue;
+}
