@@ -3,18 +3,13 @@ import axios from 'axios'
 
 function Invite() {
 
-    const newPerson = {
-        "name":"Jane Doe",
-        "email": "jdoe@gmail.com"
-    }
-
     const [newUser, setNewUser] = useState({
         "name":"",
         "email":""
     })
 
     const sendData = () => {
-        axios.post('https://us-central1-blinkapp-684c1.cloudfunctions.net/fakeAuth', newPerson)
+        axios.post('https://us-central1-blinkapp-684c1.cloudfunctions.net/fakeAuth', newUser)
             .then(function (response) {
                 console.log(response)
             })

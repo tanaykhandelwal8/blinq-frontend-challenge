@@ -1,3 +1,4 @@
+/************************* FONT FOR EVERYTHING ************************/
 * {
     font-family: 'Courier', sans-serif;
 }
@@ -50,6 +51,8 @@
 
 /****************** END OF CSS FOR FOOTER **********************/
 
+/************************* CSS FOR BODY ************************/
+
 .home-main-text {
     color:black;
     text-align: center;
@@ -84,7 +87,9 @@
     padding: 0.8em 0.7em;
 
 }
+/****************** END OF CSS FOR BODY **********************/
 
+/************************* CSS FOR POPUP ************************/
 .popup-line {
     width:20%;
 }
@@ -101,3 +106,5 @@
 .popup-name {
     background-color: blue;
 }
+
+/****************** END OF CSS FOR BODY **********************/
